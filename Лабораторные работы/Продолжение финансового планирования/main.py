@@ -9,4 +9,4 @@ for _ in range(months):
     spend += spend * increase
 
 
-print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(-money_capital, 2))
+print(f"Подушка безопасности, чтобы протянуть {months} месяцев без долгов:", round(abs(money_capital), 2))
